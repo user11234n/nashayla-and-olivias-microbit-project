@@ -1,0 +1,27 @@
+{
+    "name": "Nashayla and Olivia´s microbit project",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "Mbit_IR": "github:lzty634158/yahboom_mbit_IR#1e1a812adb8fc25b89a1c8d980fe15ff15017366",
+        "Tinybit": "github:lzty634158/Tiny-bit#8f45bf6695194ebfdaccaa03e774d1bcf7dde979"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "6.0.25",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
